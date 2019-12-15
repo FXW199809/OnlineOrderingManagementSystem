@@ -1,0 +1,56 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8" %>
+<%
+   String path = request.getContextPath();
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"> <!-- 管理员界面 -->
+  <head>
+	<meta http-equiv="pragma" content="no-cache"/>
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta http-equiv="expires" content="0"/>    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
+	<meta http-equiv="description" content="This is my page"/>
+    
+    <link href="<%=path %>/css/cont.css" rel="stylesheet" type="text/css"/> 
+  </head>
+  
+  <body>
+      <body style="overflow:hidden"> <!-- 隐藏滚动条 -->
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" class="cont_tab"> <!--表格宽度为100% 高度为100% 表中小格子边框为0，小格子中文字距离小格子距离为0，小格子之间距离为0（小格子紧密的靠在一起）样式为css中的cont_tab-->
+  <tr>
+    <td width="180" id="frmTitle" align="center" valign="top">
+	<iframe name="left" height="100%" width="180" src="<%=path %>/admin/left.jsp" frameborder="0" scrolling="no">
+	浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</iframe>	</td>
+    <td align="center" valign="top" style="padding-right:8px;"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+      <tr>
+        <td height="13" style=" line-height:13px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+            <tr>
+              <td class="cont_tab_l">&nbsp;</td>
+              <td class="cont_tab_m">&nbsp;</td>
+              <td class="cont_tab_r">&nbsp;</td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+            <tr>
+              <td><iframe name="I1" height="100%" width="100%" src="<%=path %>/admin/right.jsp" border="0" frameborder="0" scrolling="auto"> 浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。</iframe></td>
+              </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="13" style="line-height:13px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+            <tr>
+              <td class="cont_tab_bl">&nbsp;</td>
+              <td class="cont_tab_bm">&nbsp;</td>
+              <td class="cont_tab_br">&nbsp;</td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+
+</html>
