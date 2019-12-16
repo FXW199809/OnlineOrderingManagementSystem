@@ -7,21 +7,21 @@ body{
 }
 /*==========TOP页面设置==========*/
 .top_tab{
-	background-image:url(/dingcan/images/top_01.gif);
+	background-image:url(/202HotPot/images/top_01.gif);
 	background-repeat:repeat-x;
 	height:90px;
 	width:100%;
 }
 .top_logo{
 	width:197px;
-	background-image:url(/dingcan/images/top_02.gif);
+	background-image:url(/202HotPot/images/top_02.gif);
 }
 .top_tex{
-	background:url(/dingcan/images/top_03.gif) no-repeat;
+	background:url(/202HotPot/images/top_03.gif) no-repeat;
 }
 .top_r{
 	width:361px;
-	background:url(/dingcan/images/top_05.gif) no-repeat;
+	background:url(/202Hotpot/images/top_05.gif) no-repeat;
 }
 /*==========右侧页面(主内容显示部分)设置==========*/
 .right_body{
@@ -37,35 +37,35 @@ body{
 	background-color:#4374A3;
 }
 .cont_tab_l{
-	background-image:url(/dingcan/images/r_14.gif);
+	background-image:url(/202HotPot/images/r_14.gif);
 	background-repeat:no-repeat;
 	width:12px;
 	height:13px;
 }
 .cont_tab_m{
-	background-image:url(/dingcan/images/r_16.gif);
+	background-image:url(/202HotPot/images/r_16.gif);
 	background-repeat:repeat-x;
 	height:13px;
 	}
 .cont_tab_r{
-	background-image:url(/dingcan/images/r_14_r.gif);
+	background-image:url(/202HotPot/images/r_14_r.gif);
 	background-repeat:no-repeat;
 	width:12px;
 	height:13px;
 }
 .cont_tab_bl{
-	background-image:url(/dingcan/images/r_24.gif);
+	background-image:url(/202HotPot/images/r_24.gif);
 	background-repeat:no-repeat;
 	width:12px;
 	height:13px;
 }
 .cont_tab_bm{
-	background-image:url(/dingcan/images/r_29.gif);
+	background-image:url(/202HotPot/images/r_29.gif);
 	background-repeat:repeat-x;
 	height:13px;
 }
 .cont_tab_br{
-	background-image:url(/dingcan/images/r_24_r.gif);
+	background-image:url(/202HotPot/images/r_24_r.gif);
 	background-repeat:no-repeat;
 	width:12px;
 	height:13px;
@@ -80,10 +80,10 @@ body{
 	padding-right:1px;
 }
 .menu_first_img{
-	background-image:url(/dingcan/images/l_b_05.gif);
+	background-image:url(/202HotPot/images/l_b_05.gif);
 	background-repeat:no-repeat;
 }.menu_second_img{
-	background-image:url(/dingcan/images/l_b_03.gif);
+	background-image:url(/202HotPot/images/l_b_03.gif);
 	background-repeat:no-repeat;
 }
 .mouse{
@@ -94,7 +94,7 @@ body{
 
 }
 .left{
-	background-image:url(/dingcan/images/menu_26.gif);
+	background-image:url(/202HotPot/images/menu_26.gif);
 	height:29px;
 	padding-bottom:4px;
 }

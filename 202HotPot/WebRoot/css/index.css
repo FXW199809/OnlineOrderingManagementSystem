@@ -9,13 +9,13 @@ body{
 }
 /*index页面CSS设置*/
 .tab1{
-	background-image:url(/dingcan/images/dx_01.gif);
+	background-image:url(/202HotPot/images/dx_01.gif);
 	background-repeat:no-repeat;
 	height:160px;
 	width:708px;
 }
 .tab2{
-	background-image:url(/dingcan/images/dx_02.gif);
+	background-image:url(/202HotPot/images/dx_02.gif);
 	background-repeat:no-repeat;
 	width:273px;
 	height:200px;
@@ -27,7 +27,7 @@ body{
 	padding-top:10px;
 }
 .tab3{
-	background-image:url(/dingcan/images/dx_03.gif);
+	background-image:url(/202HotPot/images/dx_03.gif);
 	background-repeat:no-repeat;
 	width:708px;
 	height:216px;

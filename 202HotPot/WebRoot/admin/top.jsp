@@ -30,7 +30,7 @@
 	
   </head>
   
-  <body style="background:url(/dingcan/images/top_05.jpg)">
+  <body style="background:url(/202HotPot/images/top_05.jpg)">
       <span style="float:left;margin-left: 20px;color: white;font-size: 30px;margin-top: 30px;">202火锅店后台欢迎您!</span>
       <!-- 标题向左浮动，距离左边20像素，白色，字体30像素，距离顶端30像素 -->
 	  <span style="float:right;margin-right: 30px;margin-top: 30px;">

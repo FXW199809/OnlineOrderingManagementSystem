@@ -22,11 +22,11 @@
 		{
 			var str1="td"+str;
 			var str="show"+str;  
-			document.getElementById("td1").style.background="url('/dingcan/images/l_b_03.gif')";//每添加一个菜单，都要在这里添加。 getElementById得到id=td1的值，即修改登录密码
-			document.getElementById("td2").style.background="url('/dingcan/images/l_b_03.gif')";
-			document.getElementById("td3").style.background="url('/dingcan/images/l_b_03.gif')";
-			document.getElementById("td4").style.background="url('/dingcan/images/l_b_03.gif')";
-			document.getElementById("td5").style.background="url('/dingcan/images/l_b_03.gif')";
+			document.getElementById("td1").style.background="url('/202HotPot/images/l_b_03.gif')";//每添加一个菜单，都要在这里添加。 getElementById得到id=td1的值，即修改登录密码
+			document.getElementById("td2").style.background="url('/202HotPot/images/l_b_03.gif')";
+			document.getElementById("td3").style.background="url('/202HotPot/images/l_b_03.gif')";
+			document.getElementById("td4").style.background="url('/202HotPot/images/l_b_03.gif')";
+			document.getElementById("td5").style.background="url('/202HotPot/images/l_b_03.gif')";
 			
 			document.getElementById("show1").style.display="none";
 			document.getElementById("show2").style.display="none";
@@ -34,18 +34,18 @@
 			document.getElementById("show4").style.display="none";
 			document.getElementById("show5").style.display="none";
 			
-			document.getElementById(str1).style.background="url('/dingcan/images/l_b_05.gif')";
+			document.getElementById(str1).style.background="url('/202HotPot/images/l_b_05.gif')";
 			document.getElementById(str).style.display="block";//变成块级元素
 		}//迭代使用show函数，使用show函数完成叠菜单
 		function sho(str)
 		{
 			var str1="t"+str;
 			var str="sho"+str;
-			document.getElementById("t1").style.background="url('/dingcan/images/2_14.gif')";
-			document.getElementById("t2").style.background="url('/dingcan/images/2_14.gif')";
-			document.getElementById("t3").style.background="url('/dingcan/images/2_14.gif')";
-			document.getElementById("t4").style.background="url('/dingcan/images/2_14.gif')";
-			document.getElementById("t5").style.background="url('/dingcan/images/2_14.gif')";
+			document.getElementById("t1").style.background="url('/202HotPot/images/2_14.gif')";
+			document.getElementById("t2").style.background="url('/202HotPot/images/2_14.gif')";
+			document.getElementById("t3").style.background="url('/202HotPot/images/2_14.gif')";
+			document.getElementById("t4").style.background="url('/202HotPot/images/2_14.gif')";
+			document.getElementById("t5").style.background="url('/202HotPot/images/2_14.gif')";
 			
 			document.getElementById("sho1").style.display="none";
 			document.getElementById("sho2").style.display="none";
@@ -53,7 +53,7 @@
 			document.getElementById("sho4").style.display="none";
 			document.getElementById("sho5").style.display="none";
 			
-			document.getElementById(str1).style.background="url('/dingcan/images/3_13.gif')";
+			document.getElementById(str1).style.background="url('/202HotPot/images/3_13.gif')";
 			document.getElementById(str).style.display="block";
 		}
     </script>
@@ -65,15 +65,15 @@
 		    <td height="34">
 			    <table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- 在表中再建立一个表分成3部分放入图片组成一栏 -->
 			      <tr>
-			        <td width="48"><img src="/dingcan/images/left_09.gif" width="48" height="34"></td>
-			        <td align="center" background="/dingcan/images/left_10.gif"><span class="STYLE1">导航菜单</span></td> <!--定义行内元素导航菜单样式为STYLE1-->
-			        <td width="48"><img src="/dingcan/images/l_09.gif" width="48" height="34"></td> <!--在34高度上插入3个图片组成一栏 -->
+			        <td width="48"><img src="/202HotPot/images/left_09.gif" width="48" height="34"></td>
+			        <td align="center" background="/202HotPot/images/left_10.gif"><span class="STYLE1">导航菜单</span></td> <!--定义行内元素导航菜单样式为STYLE1-->
+			        <td width="48"><img src="/202HotPot/images/l_09.gif" width="48" height="34"></td> <!--在34高度上插入3个图片组成一栏 -->
 			      </tr>
 			    </table>
 		    </td>
          </tr>
          <tr>
-            <td valign="top" background="/dingcan/images/left_bg_03.gif" class="left_mid">  <!-- 放置顶端图片 为left_mid类型-->
+            <td valign="top" background="/202HotPot/images/left_bg_03.gif" class="left_mid">  <!-- 放置顶端图片 为left_mid类型-->
 	            <table width="100%" border="0" cellpadding="0" cellspacing="0">			      
 			        <tr>
 			            <td class="menu_first_img mouse" id="td1" onClick="show(1)">&nbsp; <!-- 点击触发show（1），即打开下拉菜单 -->
@@ -255,9 +255,9 @@
 		 <tr>
 		    <td height="13"><table width="100%" border="0" cellspacing="0" cellpadding="0">
 		       <tr>
-		           <td width="48"><img src="/dingcan/images/left_31.gif" width="48" height="13"></td>
-		           <td background="/dingcan/images/left_32.gif" class="left_b_m">&nbsp;</td>
-		           <td width="48"><img src="/dingcan/images/left_31_l.gif" width="48" height="13"></td>
+		           <td width="48"><img src="/202HotPot/images/left_31.gif" width="48" height="13"></td>
+		           <td background="/202HotPot/images/left_32.gif" class="left_b_m">&nbsp;</td>
+		           <td width="48"><img src="/202HotPot/images/left_31_l.gif" width="48" height="13"></td>
 		       </tr>
 		    </table></td>
 		  </tr>

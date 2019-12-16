@@ -74,7 +74,7 @@ hr { display: none; }
 }
 
 #wrapper {
-	background: url(/dingcan/images/body.gif);
+	background: url(/202HotPot/images/body.gif);
 	background: cover;
 	
 	z-index: -1;
@@ -129,7 +129,7 @@ hr { display: none; }
 
 #menu .current_page_item a {
 	height: 20px;
-	background: #FEC200 url(/dingcan/images/img02.jpg) repeat-x left top;
+	background: #FEC200 url(/202HotPot/images/img02.jpg) repeat-x left top;
 	color: #FFFFFF;
 }
 
@@ -197,7 +197,7 @@ hr { display: none; }
 	width: 67%;
 	height: 134px;
 	margin: 0 auto;
-	background: url(/dingcan/images/img05.JPG) top;
+	background: url(/202HotPot/images/img05.JPG) top;
 }
 
 #logo h1, #logo p {
@@ -236,7 +236,7 @@ hr { display: none; }
 /* 发送 */
 
 .post {
-	background: url(/dingcan/images/img07.jpg) repeat-x left bottom;
+	background: url(/202HotPot/images/img07.jpg) repeat-x left bottom;
 	margin-bottom: 25px;
 }
 
@@ -256,7 +256,7 @@ hr { display: none; }
 .post .meta {
 	margin-top: -10px;
 	padding: 2px 30px 2px 16px;
-	background: url(/dingcan/images/img03.gif) no-repeat left 8px;
+	background: url(/202HotPot/images/img03.gif) no-repeat left 8px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 10px;
@@ -315,7 +315,7 @@ hr { display: none; }
 #sidebar li li {
 	margin: 0;
 	padding: 7px 10px 10px 7px;
-	background: url(/dingcan/images/img07.jpg) repeat-x left bottom;
+	background: url(/202HotPot/images/img07.jpg) repeat-x left bottom;
 }
 
 #sidebar p {
