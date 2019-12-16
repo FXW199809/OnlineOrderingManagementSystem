@@ -138,7 +138,7 @@ build:function(){
    //关闭按钮
    //var path="http://img.baidu.com/hi/img/";
    //var close='<input type="image" id="dialogBoxClose" src="'+path+'dialogclose.gif" border="0" width="16" height="16" align="absmiddle" title="关闭"/>';
-   var close='<img id="dialogBoxClose" title="关闭" src=/dingcan/images/dialogclose.gif  />';
+   var close='<img id="dialogBoxClose" title="关闭" src=/202HotPot/images/dialogclose.gif  />';
    var cB='filter: alpha(opacity='+this.info.coverOpacity+');opacity:'+this.info.coverOpacity/100+';';
    var cover='<div id="dialogBoxBG" style="position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:'+baseZIndex+';'+cB+'background-color:'+this.color.cColor+';display:none;"></div>';
    var mainBox='<div id="dialogBox" style="border:1px solid '+this.color.tColor+';display:none;z-index:'+showZIndex+';position:relative;width:'+this.config.width+'px;"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="'+this.color.bColor+'">';if(this.config.isHaveTitle){mainBox+='<tr height="24" bgcolor="'+this.color.tColor+'"><td><table style="-moz-user-select:none;height:24px;" width="100%" border="0" cellpadding="0" cellspacing="0" ><tr>'+'<td width="6" height="24"></td><td id="dialogBoxTitle" style="color:'+this.color.wColor+';font-size:14px;font-weight:bold;">'+this.info.title+'&nbsp;</td>'+'<td id="dialogClose" width="20" align="right" valign="middle">'+close+'</td><td width="6"></td></tr></table></td></tr>'}
